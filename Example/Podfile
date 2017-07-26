@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Translatio_Example' do
+  pod 'Translatio', :path => '../'
+
+  target 'Translatio_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
