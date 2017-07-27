@@ -1,1 +1,2 @@
-* linguist-language=Swift
+* linguist-vendored
+*.swift linguist-vendored=false
