@@ -21,6 +21,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="ifa-aF-VW8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LnH-aI-COt">
                                 <rect key="frame" x="16" y="318" width="343" height="30"/>
                                 <nil key="textColor"/>
@@ -33,17 +36,22 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bye-xQ-vTu">
-                                <rect key="frame" x="16" y="356" width="343" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="16" y="356" width="343" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="localizableTitle" value="UIButton"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vSx-Ou-3yj">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <color key="barTintColor" red="0.23137254901960785" green="0.78431372549019607" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="Title" id="bvz-U2-8pQ">
                                         <barButtonItem key="leftBarButtonItem" title="Item" id="bjX-Ov-o5v">
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="string" keyPath="localizableTitle" value="UIBarButtonItem"/>
                                             </userDefinedRuntimeAttributes>
@@ -55,12 +63,12 @@
                                 </items>
                             </navigationBar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Lorem Ipsum" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9Qz-sS-a1F">
-                                <rect key="frame" x="16" y="394" width="343" height="60"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="16" y="397" width="343" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="eMD-9S-wik"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="localizableText" value="UITextView"/>
@@ -69,7 +77,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8GH-Oi-KYi">
                                 <rect key="frame" x="16" y="129" width="343" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
@@ -84,12 +92,16 @@
                             <constraint firstItem="LnH-aI-COt" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="LhR-vl-TYT"/>
                             <constraint firstItem="bye-xQ-vTu" firstAttribute="top" secondItem="LnH-aI-COt" secondAttribute="bottom" constant="8" id="PB7-t7-1n4"/>
                             <constraint firstAttribute="trailing" secondItem="vSx-Ou-3yj" secondAttribute="trailing" id="Rxp-56-UJ1"/>
+                            <constraint firstItem="ifa-aF-VW8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="XKJ-dw-R5x"/>
                             <constraint firstItem="9Qz-sS-a1F" firstAttribute="top" secondItem="bye-xQ-vTu" secondAttribute="bottom" constant="8" id="YOt-ZM-55b"/>
                             <constraint firstItem="bye-xQ-vTu" firstAttribute="trailing" secondItem="LnH-aI-COt" secondAttribute="trailing" id="YVV-Ig-Tcq"/>
                             <constraint firstItem="bye-xQ-vTu" firstAttribute="leading" secondItem="LnH-aI-COt" secondAttribute="leading" id="arM-1g-aMy"/>
+                            <constraint firstItem="ifa-aF-VW8" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="eid-nF-bOt"/>
                             <constraint firstAttribute="trailing" secondItem="LnH-aI-COt" secondAttribute="trailing" constant="16" id="ev0-LH-noM"/>
                             <constraint firstItem="vSx-Ou-3yj" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="oVv-vo-TSc"/>
                             <constraint firstItem="9Qz-sS-a1F" firstAttribute="leading" secondItem="bye-xQ-vTu" secondAttribute="leading" id="qiy-xP-J91"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ifa-aF-VW8" secondAttribute="bottom" id="ssP-Ll-j6Y"/>
+                            <constraint firstAttribute="trailing" secondItem="ifa-aF-VW8" secondAttribute="trailing" id="twZ-S1-z8b"/>
                             <constraint firstItem="9Qz-sS-a1F" firstAttribute="trailing" secondItem="bye-xQ-vTu" secondAttribute="trailing" id="ubE-h2-DP0"/>
                             <constraint firstItem="LnH-aI-COt" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="ura-n1-11j"/>
                         </constraints>
@@ -103,4 +115,7 @@
             <point key="canvasLocation" x="32.799999999999997" y="36.431784107946029"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Background" width="1080" height="1920"/>
+    </resources>
 </document>
