@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/Translatio.svg?style=flat)](http://cocoapods.org/pods/Translatio)
 [![Platform](https://img.shields.io/cocoapods/p/Translatio.svg?style=flat)](http://cocoapods.org/pods/Translatio)
 
-[Logo](./Example/Logo.png)
+![](http://i.imgur.com/rTGx92L.png)
 
 ## Example
 
@@ -44,7 +44,7 @@ let anotherHello = "UI.Home.Hello".localized(withBundle: Bundle.main, tableName:
 
 Translatio adds extensions to all the most common UI elements such as UIButton, UITextField, UITextView, UILabel, UIBarButtonItem, UINavigationItem. The extensions provide an `@IBInspectable` property that can be modified directly in the storyboard. This gives a very big advantage in localizing interface files. 
 
-[Screenshot-example](./Example/Screenshot-example.png)
+![](http://i.imgur.com/CZcydWF.png)
 
 As you can see the UILabel now has a Localizable Text property that can be modified directly in the IB.
 
