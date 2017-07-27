@@ -11,25 +11,18 @@
 		078198E6F3DCBAF34CBB650DA4DC35F2 /* Translatio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0128987FA5CF80EFE2424BA9E429519A /* Translatio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07AE2B8478DA902DB01C22296401BB30 /* Pods-Translatio_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDAB56F9030CC4468C9118D8846BF34F /* Pods-Translatio_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		178329A0DEE18CB67FC2BB119C579091 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2819257EAE257B85FE7323E59C8B4C30 /* UINavigationItem+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E26AE4B6E10FD204B73A3785FECBE8 /* UINavigationItem+Localizable.swift */; };
 		335747AC0603998AD09A483884DA5A41 /* Pods-Translatio_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C22050768F2AC78D08A012C5CC192E /* Pods-Translatio_Tests-dummy.m */; };
+		42E7138C80D7BAC9B1F32DD09730FBB6 /* UIButton+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA20079A71270222BDEDBB5AC8CB7A /* UIButton+Localizable.swift */; };
+		4344FB6DF862F8ECE71BCC5C006B1E43 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32BE04AAA25BF364406784699999EB /* String+Localized.swift */; };
 		4E7B8A51AC113129F964A2308ADD3760 /* Pods-Translatio_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3BD32152F46222D49835BF39F3B6B1 /* Pods-Translatio_Example-dummy.m */; };
 		5CBF3C60A2C56438E27043A6E87B9E48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		61D19C937040C42AF72FC8A248F8721E /* Pods-Translatio_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBE541642952FA3F8CF9A6A6D5FDB2A /* Pods-Translatio_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		652A8ED11F29DD9D0060CEB6 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECA1F29DD9D0060CEB6 /* String+Localized.swift */; };
-		652A8ED21F29DD9D0060CEB6 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECA1F29DD9D0060CEB6 /* String+Localized.swift */; };
-		652A8ED31F29DD9D0060CEB6 /* UITextField+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECB1F29DD9D0060CEB6 /* UITextField+Localized.swift */; };
-		652A8ED41F29DD9D0060CEB6 /* UITextField+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECB1F29DD9D0060CEB6 /* UITextField+Localized.swift */; };
-		652A8ED51F29DD9D0060CEB6 /* UITextView+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECC1F29DD9D0060CEB6 /* UITextView+Localizable.swift */; };
-		652A8ED61F29DD9D0060CEB6 /* UITextView+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECC1F29DD9D0060CEB6 /* UITextView+Localizable.swift */; };
-		652A8ED71F29DD9D0060CEB6 /* UIButton+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECD1F29DD9D0060CEB6 /* UIButton+Localizable.swift */; };
-		652A8ED81F29DD9D0060CEB6 /* UIButton+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECD1F29DD9D0060CEB6 /* UIButton+Localizable.swift */; };
-		652A8ED91F29DD9D0060CEB6 /* UILabel+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECE1F29DD9D0060CEB6 /* UILabel+Localizable.swift */; };
-		652A8EDA1F29DD9D0060CEB6 /* UILabel+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECE1F29DD9D0060CEB6 /* UILabel+Localizable.swift */; };
-		652A8EDB1F29DD9D0060CEB6 /* UIBarButtonItem+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECF1F29DD9D0060CEB6 /* UIBarButtonItem+Localizable.swift */; };
-		652A8EDC1F29DD9D0060CEB6 /* UIBarButtonItem+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECF1F29DD9D0060CEB6 /* UIBarButtonItem+Localizable.swift */; };
-		652A8EDD1F29DD9D0060CEB6 /* UINavigationItem+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ED01F29DD9D0060CEB6 /* UINavigationItem+Localizable.swift */; };
-		652A8EDE1F29DD9D0060CEB6 /* UINavigationItem+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ED01F29DD9D0060CEB6 /* UINavigationItem+Localizable.swift */; };
-		669A1A55EACA1937D242C0A04F5D8D93 /* Translatio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D47D06C462ED0B54ED764796649D59DB /* Translatio-dummy.m */; };
+		840953DBAE753ECB1DBEDC2DB4FC6A56 /* UIBarButtonItem+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7881BBE305794B35C46CC9F391FBC6E3 /* UIBarButtonItem+Localizable.swift */; };
+		8CAE6004FFA8C9BB52CD59DC6F3E9807 /* UILabel+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0E42D9E326EB955A0344FEAEB9F2 /* UILabel+Localizable.swift */; };
+		A5BB8461E1B9D7F6BC5A6A61A96CEA9C /* UITextField+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368540A336CEC689D6C334C19249DC95 /* UITextField+Localized.swift */; };
+		EF80D55E1B74E0436BA67C1B74859B62 /* Translatio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D47D06C462ED0B54ED764796649D59DB /* Translatio-dummy.m */; };
+		FEBF3C3F317117028CD95F35E4398944 /* UITextView+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406D0A5C4EEA403A11023D903B846D2 /* UITextView+Localizable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,23 +38,21 @@
 /* Begin PBXFileReference section */
 		0128987FA5CF80EFE2424BA9E429519A /* Translatio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Translatio-umbrella.h"; sourceTree = "<group>"; };
 		10BA43B8646F93A09E0365450AEABFA8 /* Pods-Translatio_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Translatio_Example-frameworks.sh"; sourceTree = "<group>"; };
+		20E26AE4B6E10FD204B73A3785FECBE8 /* UINavigationItem+Localizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+Localizable.swift"; sourceTree = "<group>"; };
 		2CF4BA52124D961D5DB3D0DDCCB28D75 /* Pods_Translatio_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Translatio_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		368540A336CEC689D6C334C19249DC95 /* UITextField+Localized.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+Localized.swift"; sourceTree = "<group>"; };
 		3EE4CCFA0C4C098E710933E081D51518 /* Pods-Translatio_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Translatio_Example.modulemap"; sourceTree = "<group>"; };
 		4B5757880621BF4DEEAFF713546FD965 /* Translatio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Translatio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7163EEC212BBCB37ABC25303A4D4D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		606BED7B7F178D268C5946E1D7427A00 /* Pods-Translatio_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Translatio_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		63B9806BB728C96E147F48630F36A968 /* Pods-Translatio_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Translatio_Tests-resources.sh"; sourceTree = "<group>"; };
-		652A8ECA1F29DD9D0060CEB6 /* String+Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
-		652A8ECB1F29DD9D0060CEB6 /* UITextField+Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Localized.swift"; sourceTree = "<group>"; };
-		652A8ECC1F29DD9D0060CEB6 /* UITextView+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Localizable.swift"; sourceTree = "<group>"; };
-		652A8ECD1F29DD9D0060CEB6 /* UIButton+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Localizable.swift"; sourceTree = "<group>"; };
-		652A8ECE1F29DD9D0060CEB6 /* UILabel+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Localizable.swift"; sourceTree = "<group>"; };
-		652A8ECF1F29DD9D0060CEB6 /* UIBarButtonItem+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Localizable.swift"; sourceTree = "<group>"; };
-		652A8ED01F29DD9D0060CEB6 /* UINavigationItem+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+Localizable.swift"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6ABA50F09E7999B457532852497D1DC9 /* Pods-Translatio_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Translatio_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7881BBE305794B35C46CC9F391FBC6E3 /* UIBarButtonItem+Localizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Localizable.swift"; sourceTree = "<group>"; };
 		79C22050768F2AC78D08A012C5CC192E /* Pods-Translatio_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Translatio_Tests-dummy.m"; sourceTree = "<group>"; };
 		7D39876A31D10E22E4B91DFEF10F8F1E /* Pods-Translatio_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Translatio_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E32BE04AAA25BF364406784699999EB /* String+Localized.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		7FBA20079A71270222BDEDBB5AC8CB7A /* UIButton+Localizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+Localizable.swift"; sourceTree = "<group>"; };
 		894799964DC23533EA9CEFEBDAD9DE3C /* Pods-Translatio_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Translatio_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		983367D9179807C2A9881AF4A3A492B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +63,8 @@
 		B794725F6969E6B173282DBAC26BCEBB /* Pods-Translatio_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Translatio_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA5DCC71E10F904869F6CE2162C99D67 /* Pods-Translatio_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Translatio_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BDAB56F9030CC4468C9118D8846BF34F /* Pods-Translatio_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Translatio_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D1EC0E42D9E326EB955A0344FEAEB9F2 /* UILabel+Localizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+Localizable.swift"; sourceTree = "<group>"; };
+		D406D0A5C4EEA403A11023D903B846D2 /* UITextView+Localizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+Localizable.swift"; sourceTree = "<group>"; };
 		D47D06C462ED0B54ED764796649D59DB /* Translatio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Translatio-dummy.m"; sourceTree = "<group>"; };
 		D799CBEF4FF9C1F644B109E6258B5BC6 /* Pods-Translatio_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Translatio_Tests.modulemap"; sourceTree = "<group>"; };
 		D97AB05BBA70E906BC1BE6BC55195937 /* Pods-Translatio_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Translatio_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +113,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		464413B4F67AE71138ED64D3DB52A2D8 /* Translatio */ = {
+			isa = PBXGroup;
+			children = (
+				59A6EBBDEAD6EF6D88258A3D88F545B7 /* Classes */,
+			);
+			path = Translatio;
+			sourceTree = "<group>";
+		};
+		59A6EBBDEAD6EF6D88258A3D88F545B7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7E32BE04AAA25BF364406784699999EB /* String+Localized.swift */,
+				7881BBE305794B35C46CC9F391FBC6E3 /* UIBarButtonItem+Localizable.swift */,
+				7FBA20079A71270222BDEDBB5AC8CB7A /* UIButton+Localizable.swift */,
+				D1EC0E42D9E326EB955A0344FEAEB9F2 /* UILabel+Localizable.swift */,
+				20E26AE4B6E10FD204B73A3785FECBE8 /* UINavigationItem+Localizable.swift */,
+				368540A336CEC689D6C334C19249DC95 /* UITextField+Localized.swift */,
+				D406D0A5C4EEA403A11023D903B846D2 /* UITextView+Localizable.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -131,33 +146,11 @@
 			);
 			sourceTree = "<group>";
 		};
-		81492C98CD15FEB5AA07C52CF3883151 /* Translatio */ = {
-			isa = PBXGroup;
-			children = (
-				98E0EE8DE83C71CC01C93B29C1F09B0A /* Classes */,
-			);
-			path = Translatio;
-			sourceTree = "<group>";
-		};
-		98E0EE8DE83C71CC01C93B29C1F09B0A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				652A8ECA1F29DD9D0060CEB6 /* String+Localized.swift */,
-				652A8ECB1F29DD9D0060CEB6 /* UITextField+Localized.swift */,
-				652A8ECC1F29DD9D0060CEB6 /* UITextView+Localizable.swift */,
-				652A8ECD1F29DD9D0060CEB6 /* UIButton+Localizable.swift */,
-				652A8ECE1F29DD9D0060CEB6 /* UILabel+Localizable.swift */,
-				652A8ECF1F29DD9D0060CEB6 /* UIBarButtonItem+Localizable.swift */,
-				652A8ED01F29DD9D0060CEB6 /* UINavigationItem+Localizable.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		A9C32F8A6616DE781D415F75A539BED9 /* Translatio */ = {
 			isa = PBXGroup;
 			children = (
 				AE90D3FA664CCC7AA003449A6A362F75 /* Support Files */,
-				81492C98CD15FEB5AA07C52CF3883151 /* Translatio */,
+				464413B4F67AE71138ED64D3DB52A2D8 /* Translatio */,
 			);
 			name = Translatio;
 			path = ../..;
@@ -281,7 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C53D9DE8E6A4D3CDFC30E7A5867478D /* Build configuration list for PBXNativeTarget "Translatio" */;
 			buildPhases = (
-				78E4B5BF10C4AB94A768800E570D2F1C /* Sources */,
+				B13661B15B54FDF128F27AF9D740BDCD /* Sources */,
 				5780F3AFC351DCABB17C4027183BB80E /* Frameworks */,
 				B04D94CA4DA4704A81E2C1837AA901CC /* Headers */,
 			);
@@ -362,29 +355,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				652A8ED11F29DD9D0060CEB6 /* String+Localized.swift in Sources */,
-				652A8EDB1F29DD9D0060CEB6 /* UIBarButtonItem+Localizable.swift in Sources */,
 				4E7B8A51AC113129F964A2308ADD3760 /* Pods-Translatio_Example-dummy.m in Sources */,
-				652A8EDD1F29DD9D0060CEB6 /* UINavigationItem+Localizable.swift in Sources */,
-				652A8ED51F29DD9D0060CEB6 /* UITextView+Localizable.swift in Sources */,
-				652A8ED91F29DD9D0060CEB6 /* UILabel+Localizable.swift in Sources */,
-				652A8ED31F29DD9D0060CEB6 /* UITextField+Localized.swift in Sources */,
-				652A8ED71F29DD9D0060CEB6 /* UIButton+Localizable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78E4B5BF10C4AB94A768800E570D2F1C /* Sources */ = {
+		B13661B15B54FDF128F27AF9D740BDCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				652A8EDA1F29DD9D0060CEB6 /* UILabel+Localizable.swift in Sources */,
-				652A8ED81F29DD9D0060CEB6 /* UIButton+Localizable.swift in Sources */,
-				652A8ED61F29DD9D0060CEB6 /* UITextView+Localizable.swift in Sources */,
-				652A8ED21F29DD9D0060CEB6 /* String+Localized.swift in Sources */,
-				652A8EDE1F29DD9D0060CEB6 /* UINavigationItem+Localizable.swift in Sources */,
-				652A8EDC1F29DD9D0060CEB6 /* UIBarButtonItem+Localizable.swift in Sources */,
-				669A1A55EACA1937D242C0A04F5D8D93 /* Translatio-dummy.m in Sources */,
-				652A8ED41F29DD9D0060CEB6 /* UITextField+Localized.swift in Sources */,
+				4344FB6DF862F8ECE71BCC5C006B1E43 /* String+Localized.swift in Sources */,
+				EF80D55E1B74E0436BA67C1B74859B62 /* Translatio-dummy.m in Sources */,
+				840953DBAE753ECB1DBEDC2DB4FC6A56 /* UIBarButtonItem+Localizable.swift in Sources */,
+				42E7138C80D7BAC9B1F32DD09730FBB6 /* UIButton+Localizable.swift in Sources */,
+				8CAE6004FFA8C9BB52CD59DC6F3E9807 /* UILabel+Localizable.swift in Sources */,
+				2819257EAE257B85FE7323E59C8B4C30 /* UINavigationItem+Localizable.swift in Sources */,
+				A5BB8461E1B9D7F6BC5A6A61A96CEA9C /* UITextField+Localized.swift in Sources */,
+				FEBF3C3F317117028CD95F35E4398944 /* UITextView+Localizable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +412,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Translatio_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Translatio_Example/Pods-Translatio_Example.modulemap";
@@ -661,7 +647,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Translatio_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Translatio_Example/Pods-Translatio_Example.modulemap";

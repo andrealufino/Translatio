@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Translatio'
-  s.version          = '0.1.0'
+  s.version          = '0.90.00'
   s.summary          = 'Easily localize your iOS apps with this super lightweight framework'
 
 # This description is used to generate tags and improve search results.
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
+Translatio is a library that helps to localize strings in an application. It adds a property and a function to the strings object and provides extensions for the UI elements such as UIButton, UITextField, UITextView, UILabel, UINavigationItem, UIBarButtonItem. The very nice thing is that you can provide the localizable key for the UI element directly from the Interface Builder file (storyboard or xib).
                        DESC
 
   s.homepage         = 'https://github.com/andrealufino/Translatio'
@@ -28,7 +29,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/andrealufino/Translatio.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'Translatio/Classes/**/*'
   
