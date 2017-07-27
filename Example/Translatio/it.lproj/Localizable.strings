@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Translatio
+
+  Created by Andrea Mario Lufino on 26/07/17.
+  Copyright © 2017 CocoaPods. All rights reserved.
+*/
+
+
+"UITextField"       = "Ciao text field";
+"UIButton"          = "Ciao button";
+"UITextView"        = "Ciao text view";
+"UIBarButtonItem"   = "Ciao bar button";
+"UILabel"           = "Ciao label";
+"UINavigationItem"  = "Ciao nav item";

@@ -15,8 +15,21 @@
 		4E7B8A51AC113129F964A2308ADD3760 /* Pods-Translatio_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3BD32152F46222D49835BF39F3B6B1 /* Pods-Translatio_Example-dummy.m */; };
 		5CBF3C60A2C56438E27043A6E87B9E48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		61D19C937040C42AF72FC8A248F8721E /* Pods-Translatio_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBE541642952FA3F8CF9A6A6D5FDB2A /* Pods-Translatio_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2FE91ECDAC6294ABAF2E858930E000F /* Translatio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D47D06C462ED0B54ED764796649D59DB /* Translatio-dummy.m */; };
-		DD743885249A579CE2CB5F247CA4401B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA159F84A8B4035E8820CC9D68BFDA2 /* ReplaceMe.swift */; };
+		652A8ED11F29DD9D0060CEB6 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECA1F29DD9D0060CEB6 /* String+Localized.swift */; };
+		652A8ED21F29DD9D0060CEB6 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECA1F29DD9D0060CEB6 /* String+Localized.swift */; };
+		652A8ED31F29DD9D0060CEB6 /* UITextField+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECB1F29DD9D0060CEB6 /* UITextField+Localized.swift */; };
+		652A8ED41F29DD9D0060CEB6 /* UITextField+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECB1F29DD9D0060CEB6 /* UITextField+Localized.swift */; };
+		652A8ED51F29DD9D0060CEB6 /* UITextView+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECC1F29DD9D0060CEB6 /* UITextView+Localizable.swift */; };
+		652A8ED61F29DD9D0060CEB6 /* UITextView+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECC1F29DD9D0060CEB6 /* UITextView+Localizable.swift */; };
+		652A8ED71F29DD9D0060CEB6 /* UIButton+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECD1F29DD9D0060CEB6 /* UIButton+Localizable.swift */; };
+		652A8ED81F29DD9D0060CEB6 /* UIButton+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECD1F29DD9D0060CEB6 /* UIButton+Localizable.swift */; };
+		652A8ED91F29DD9D0060CEB6 /* UILabel+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECE1F29DD9D0060CEB6 /* UILabel+Localizable.swift */; };
+		652A8EDA1F29DD9D0060CEB6 /* UILabel+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECE1F29DD9D0060CEB6 /* UILabel+Localizable.swift */; };
+		652A8EDB1F29DD9D0060CEB6 /* UIBarButtonItem+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECF1F29DD9D0060CEB6 /* UIBarButtonItem+Localizable.swift */; };
+		652A8EDC1F29DD9D0060CEB6 /* UIBarButtonItem+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ECF1F29DD9D0060CEB6 /* UIBarButtonItem+Localizable.swift */; };
+		652A8EDD1F29DD9D0060CEB6 /* UINavigationItem+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ED01F29DD9D0060CEB6 /* UINavigationItem+Localizable.swift */; };
+		652A8EDE1F29DD9D0060CEB6 /* UINavigationItem+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A8ED01F29DD9D0060CEB6 /* UINavigationItem+Localizable.swift */; };
+		669A1A55EACA1937D242C0A04F5D8D93 /* Translatio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D47D06C462ED0B54ED764796649D59DB /* Translatio-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,34 +44,40 @@
 
 /* Begin PBXFileReference section */
 		0128987FA5CF80EFE2424BA9E429519A /* Translatio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Translatio-umbrella.h"; sourceTree = "<group>"; };
-		0FA159F84A8B4035E8820CC9D68BFDA2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		10BA43B8646F93A09E0365450AEABFA8 /* Pods-Translatio_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Translatio_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2CF4BA52124D961D5DB3D0DDCCB28D75 /* Pods_Translatio_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Translatio_Tests.framework; path = "Pods-Translatio_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EE4CCFA0C4C098E710933E081D51518 /* Pods-Translatio_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Translatio_Example.modulemap"; sourceTree = "<group>"; };
-		4B5757880621BF4DEEAFF713546FD965 /* Translatio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Translatio.framework; path = Translatio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF4BA52124D961D5DB3D0DDCCB28D75 /* Pods_Translatio_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Translatio_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE4CCFA0C4C098E710933E081D51518 /* Pods-Translatio_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Translatio_Example.modulemap"; sourceTree = "<group>"; };
+		4B5757880621BF4DEEAFF713546FD965 /* Translatio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Translatio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7163EEC212BBCB37ABC25303A4D4D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		606BED7B7F178D268C5946E1D7427A00 /* Pods-Translatio_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Translatio_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		63B9806BB728C96E147F48630F36A968 /* Pods-Translatio_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Translatio_Tests-resources.sh"; sourceTree = "<group>"; };
+		652A8ECA1F29DD9D0060CEB6 /* String+Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		652A8ECB1F29DD9D0060CEB6 /* UITextField+Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Localized.swift"; sourceTree = "<group>"; };
+		652A8ECC1F29DD9D0060CEB6 /* UITextView+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Localizable.swift"; sourceTree = "<group>"; };
+		652A8ECD1F29DD9D0060CEB6 /* UIButton+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Localizable.swift"; sourceTree = "<group>"; };
+		652A8ECE1F29DD9D0060CEB6 /* UILabel+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Localizable.swift"; sourceTree = "<group>"; };
+		652A8ECF1F29DD9D0060CEB6 /* UIBarButtonItem+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Localizable.swift"; sourceTree = "<group>"; };
+		652A8ED01F29DD9D0060CEB6 /* UINavigationItem+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+Localizable.swift"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6ABA50F09E7999B457532852497D1DC9 /* Pods-Translatio_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Translatio_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		79C22050768F2AC78D08A012C5CC192E /* Pods-Translatio_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Translatio_Tests-dummy.m"; sourceTree = "<group>"; };
 		7D39876A31D10E22E4B91DFEF10F8F1E /* Pods-Translatio_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Translatio_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		894799964DC23533EA9CEFEBDAD9DE3C /* Pods-Translatio_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Translatio_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		983367D9179807C2A9881AF4A3A492B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB8B6B42F872195672E3011F58DA186F /* Pods-Translatio_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Translatio_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		ADB08A94A4E89373893578D402D2334D /* Pods-Translatio_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Translatio_Example-resources.sh"; sourceTree = "<group>"; };
-		B2F6E64CB04D96E809AB5427E007F67C /* Translatio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Translatio.modulemap; sourceTree = "<group>"; };
+		B2F6E64CB04D96E809AB5427E007F67C /* Translatio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Translatio.modulemap; sourceTree = "<group>"; };
 		B59879A457D60C50B1AB41425A27C88E /* Translatio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Translatio-prefix.pch"; sourceTree = "<group>"; };
 		B794725F6969E6B173282DBAC26BCEBB /* Pods-Translatio_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Translatio_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA5DCC71E10F904869F6CE2162C99D67 /* Pods-Translatio_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Translatio_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BDAB56F9030CC4468C9118D8846BF34F /* Pods-Translatio_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Translatio_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D47D06C462ED0B54ED764796649D59DB /* Translatio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Translatio-dummy.m"; sourceTree = "<group>"; };
-		D799CBEF4FF9C1F644B109E6258B5BC6 /* Pods-Translatio_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Translatio_Tests.modulemap"; sourceTree = "<group>"; };
+		D799CBEF4FF9C1F644B109E6258B5BC6 /* Pods-Translatio_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Translatio_Tests.modulemap"; sourceTree = "<group>"; };
 		D97AB05BBA70E906BC1BE6BC55195937 /* Pods-Translatio_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Translatio_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DB3BD32152F46222D49835BF39F3B6B1 /* Pods-Translatio_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Translatio_Example-dummy.m"; sourceTree = "<group>"; };
 		DDB8ADC6A09FB036B7C1CC4881456164 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E43832E1F4254B84B88CD50F953A1261 /* Pods_Translatio_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Translatio_Example.framework; path = "Pods-Translatio_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43832E1F4254B84B88CD50F953A1261 /* Pods_Translatio_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Translatio_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CAA77F34C775D4ABAAF41AE0AD9B0A /* Translatio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Translatio.xcconfig; sourceTree = "<group>"; };
 		FB2B05EC96157184AA3DF6D93F1FD655 /* Pods-Translatio_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Translatio_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FDBE541642952FA3F8CF9A6A6D5FDB2A /* Pods-Translatio_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Translatio_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -92,15 +111,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		192637312FD156F1E2B8B2582862892C /* Translatio */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC52A9CF00C4B01E9AEFF4B1B80AE7 /* Classes */,
-			);
-			name = Translatio;
-			path = Translatio;
-			sourceTree = "<group>";
-		};
 		2CE2ADC2B0A9C74923EB8860A051BC6D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,11 +131,33 @@
 			);
 			sourceTree = "<group>";
 		};
+		81492C98CD15FEB5AA07C52CF3883151 /* Translatio */ = {
+			isa = PBXGroup;
+			children = (
+				98E0EE8DE83C71CC01C93B29C1F09B0A /* Classes */,
+			);
+			path = Translatio;
+			sourceTree = "<group>";
+		};
+		98E0EE8DE83C71CC01C93B29C1F09B0A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				652A8ECA1F29DD9D0060CEB6 /* String+Localized.swift */,
+				652A8ECB1F29DD9D0060CEB6 /* UITextField+Localized.swift */,
+				652A8ECC1F29DD9D0060CEB6 /* UITextView+Localizable.swift */,
+				652A8ECD1F29DD9D0060CEB6 /* UIButton+Localizable.swift */,
+				652A8ECE1F29DD9D0060CEB6 /* UILabel+Localizable.swift */,
+				652A8ECF1F29DD9D0060CEB6 /* UIBarButtonItem+Localizable.swift */,
+				652A8ED01F29DD9D0060CEB6 /* UINavigationItem+Localizable.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		A9C32F8A6616DE781D415F75A539BED9 /* Translatio */ = {
 			isa = PBXGroup;
 			children = (
 				AE90D3FA664CCC7AA003449A6A362F75 /* Support Files */,
-				192637312FD156F1E2B8B2582862892C /* Translatio */,
+				81492C98CD15FEB5AA07C52CF3883151 /* Translatio */,
 			);
 			name = Translatio;
 			path = ../..;
@@ -177,15 +209,6 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		DEBC52A9CF00C4B01E9AEFF4B1B80AE7 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0FA159F84A8B4035E8820CC9D68BFDA2 /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		E3A5A2FD2298CCF7F8CA82CEEA9BF5CF /* Pods-Translatio_Example */ = {
@@ -258,7 +281,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C53D9DE8E6A4D3CDFC30E7A5867478D /* Build configuration list for PBXNativeTarget "Translatio" */;
 			buildPhases = (
-				EE15D29CCCA1EACECBDC1123057A0C4B /* Sources */,
+				78E4B5BF10C4AB94A768800E570D2F1C /* Sources */,
 				5780F3AFC351DCABB17C4027183BB80E /* Frameworks */,
 				B04D94CA4DA4704A81E2C1837AA901CC /* Headers */,
 			);
@@ -339,7 +362,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652A8ED11F29DD9D0060CEB6 /* String+Localized.swift in Sources */,
+				652A8EDB1F29DD9D0060CEB6 /* UIBarButtonItem+Localizable.swift in Sources */,
 				4E7B8A51AC113129F964A2308ADD3760 /* Pods-Translatio_Example-dummy.m in Sources */,
+				652A8EDD1F29DD9D0060CEB6 /* UINavigationItem+Localizable.swift in Sources */,
+				652A8ED51F29DD9D0060CEB6 /* UITextView+Localizable.swift in Sources */,
+				652A8ED91F29DD9D0060CEB6 /* UILabel+Localizable.swift in Sources */,
+				652A8ED31F29DD9D0060CEB6 /* UITextField+Localized.swift in Sources */,
+				652A8ED71F29DD9D0060CEB6 /* UIButton+Localizable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E4B5BF10C4AB94A768800E570D2F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652A8EDA1F29DD9D0060CEB6 /* UILabel+Localizable.swift in Sources */,
+				652A8ED81F29DD9D0060CEB6 /* UIButton+Localizable.swift in Sources */,
+				652A8ED61F29DD9D0060CEB6 /* UITextView+Localizable.swift in Sources */,
+				652A8ED21F29DD9D0060CEB6 /* String+Localized.swift in Sources */,
+				652A8EDE1F29DD9D0060CEB6 /* UINavigationItem+Localizable.swift in Sources */,
+				652A8EDC1F29DD9D0060CEB6 /* UIBarButtonItem+Localizable.swift in Sources */,
+				669A1A55EACA1937D242C0A04F5D8D93 /* Translatio-dummy.m in Sources */,
+				652A8ED41F29DD9D0060CEB6 /* UITextField+Localized.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,15 +393,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				335747AC0603998AD09A483884DA5A41 /* Pods-Translatio_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE15D29CCCA1EACECBDC1123057A0C4B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD743885249A579CE2CB5F247CA4401B /* ReplaceMe.swift in Sources */,
-				B2FE91ECDAC6294ABAF2E858930E000F /* Translatio-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

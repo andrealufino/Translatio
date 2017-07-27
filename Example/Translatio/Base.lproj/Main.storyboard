@@ -1,25 +1,106 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Translatio_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LnH-aI-COt">
+                                <rect key="frame" x="16" y="318" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedKey" value="Hello"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizableKey" value="Hello"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizablePlaceholder" value="UITextField"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bye-xQ-vTu">
+                                <rect key="frame" x="16" y="356" width="343" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizableTitle" value="UIButton"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vSx-Ou-3yj">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="bvz-U2-8pQ">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" id="bjX-Ov-o5v">
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="localizableTitle" value="UIBarButtonItem"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </barButtonItem>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizableTitle" value="UINavigationItem"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Lorem Ipsum" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9Qz-sS-a1F">
+                                <rect key="frame" x="16" y="394" width="343" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="eMD-9S-wik"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizableText" value="UITextView"/>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8GH-Oi-KYi">
+                                <rect key="frame" x="16" y="129" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizableText" value="UILabel"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vSx-Ou-3yj" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="2d0-fh-tc6"/>
+                            <constraint firstItem="LnH-aI-COt" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="97O-a7-Emz"/>
+                            <constraint firstItem="LnH-aI-COt" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="LhR-vl-TYT"/>
+                            <constraint firstItem="bye-xQ-vTu" firstAttribute="top" secondItem="LnH-aI-COt" secondAttribute="bottom" constant="8" id="PB7-t7-1n4"/>
+                            <constraint firstAttribute="trailing" secondItem="vSx-Ou-3yj" secondAttribute="trailing" id="Rxp-56-UJ1"/>
+                            <constraint firstItem="9Qz-sS-a1F" firstAttribute="top" secondItem="bye-xQ-vTu" secondAttribute="bottom" constant="8" id="YOt-ZM-55b"/>
+                            <constraint firstItem="bye-xQ-vTu" firstAttribute="trailing" secondItem="LnH-aI-COt" secondAttribute="trailing" id="YVV-Ig-Tcq"/>
+                            <constraint firstItem="bye-xQ-vTu" firstAttribute="leading" secondItem="LnH-aI-COt" secondAttribute="leading" id="arM-1g-aMy"/>
+                            <constraint firstAttribute="trailing" secondItem="LnH-aI-COt" secondAttribute="trailing" constant="16" id="ev0-LH-noM"/>
+                            <constraint firstItem="vSx-Ou-3yj" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="oVv-vo-TSc"/>
+                            <constraint firstItem="9Qz-sS-a1F" firstAttribute="leading" secondItem="bye-xQ-vTu" secondAttribute="leading" id="qiy-xP-J91"/>
+                            <constraint firstItem="9Qz-sS-a1F" firstAttribute="trailing" secondItem="bye-xQ-vTu" secondAttribute="trailing" id="ubE-h2-DP0"/>
+                            <constraint firstItem="LnH-aI-COt" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="ura-n1-11j"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="txtHello" destination="LnH-aI-COt" id="qez-SX-h40"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="36.431784107946029"/>
         </scene>
     </scenes>
 </document>
