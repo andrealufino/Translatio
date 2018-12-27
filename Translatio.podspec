@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Translatio'
-  s.version          = '0.90.00'
+  s.version          = '0.91.00'
   s.summary          = 'Easily localize your iOS apps with this super lightweight framework'
 
 # This description is used to generate tags and improve search results.
