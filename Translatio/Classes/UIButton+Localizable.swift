@@ -23,11 +23,11 @@ extension UIButton {
         }
         set {
             
-            self.setTitle(newValue.localized, for: UIControlState())
+            self.setTitle(newValue.localized, for: UIControl.State())
         }
     }
     
-    public func setLocalizedTitle(localizedTitle: String, forControlState controlState: UIControlState) {
+    public func setLocalizedTitle(localizedTitle: String, forControlState controlState: UIControl.State) {
         
         self.setTitle(localizedTitle.localized, for: controlState)
     }
