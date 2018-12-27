@@ -14,8 +14,6 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		652A8EC51F29D2CC0060CEB6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 652A8EC71F29D2CC0060CEB6 /* Localizable.strings */; };
-		652A8EE01F29E3480060CEB6 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A8EDF1F29E3480060CEB6 /* Logo.png */; };
-		652A8EE21F29E62D0060CEB6 /* Storyboard-example.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A8EE11F29E62D0060CEB6 /* Storyboard-example.png */; };
 		D9048013077FC65DF49BA620 /* Pods_Translatio_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3DA89906E0D739D3843B7F /* Pods_Translatio_Tests.framework */; };
 		DADDB7D32C7C94E4EF1DE03E /* Pods_Translatio_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2242594949A7CD823C32EEB7 /* Pods_Translatio_Example.framework */; };
 /* End PBXBuildFile section */
@@ -48,8 +46,6 @@
 		652A8EC61F29D2CC0060CEB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		652A8EC81F29D2D60060CEB6 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		652A8EC91F29D2F70060CEB6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		652A8EDF1F29E3480060CEB6 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
-		652A8EE11F29E62D0060CEB6 /* Storyboard-example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Storyboard-example.png"; sourceTree = "<group>"; };
 		6E3DA89906E0D739D3843B7F /* Pods_Translatio_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Translatio_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6931FF2BD890A3FF4E8508 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B7D72D46D47CD99FA0FC1806 /* Translatio.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Translatio.podspec; path = ../Translatio.podspec; sourceTree = "<group>"; };
@@ -155,8 +151,6 @@
 				B7D72D46D47CD99FA0FC1806 /* Translatio.podspec */,
 				47C362A1EB2F24D634649A40 /* README.md */,
 				AC6931FF2BD890A3FF4E8508 /* LICENSE */,
-				652A8EDF1F29E3480060CEB6 /* Logo.png */,
-				652A8EE11F29E62D0060CEB6 /* Storyboard-example.png */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -226,11 +220,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 1010;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 1010;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -263,9 +257,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				652A8EC51F29D2CC0060CEB6 /* Localizable.strings in Resources */,
-				652A8EE01F29E3480060CEB6 /* Logo.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				652A8EE21F29E62D0060CEB6 /* Storyboard-example.png in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,7 +521,8 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -543,7 +536,8 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -563,7 +557,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -579,7 +574,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
