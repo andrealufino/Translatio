@@ -16,13 +16,10 @@ extension UIButton {
     
     /// The key in the Localizable.strings file for the title
     @IBInspectable public var localizableTitle: String {
-        
         get {
-            
             return currentTitle ?? ""
         }
         set {
-            
             self.setTitle(newValue.localized, for: UIControl.State())
         }
     }

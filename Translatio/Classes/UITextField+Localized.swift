@@ -16,7 +16,6 @@ extension UITextField {
     
     /// The key in the Localizable.strings file for the placeholder
     @IBInspectable public var localizablePlaceholder: String {
-        
         get {
             return self.placeholder ?? ""
         }
@@ -27,13 +26,10 @@ extension UITextField {
     
     /// The key in the Localizable.strings file for the text
     @IBInspectable public var localizableText: String {
-        
         get {
-            
             return self.text ?? ""
         }
         set {
-            
             self.text = newValue.localized
         }
     }

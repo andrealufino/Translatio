@@ -13,7 +13,7 @@ import Foundation
 
 extension String {
     
-    /// Localized string
+    /// Localized string.
     public var localized: String {
         
         return NSLocalizedString(
@@ -25,13 +25,15 @@ extension String {
         )
     }
     
-    /// Localized string based on parameters
+    /// Localized string based on parameters.
     ///
     /// - Parameters:
-    ///   - bundle: The bundle
-    ///   - tableName: The table name
-    /// - Returns: The localized string
-    public func localized(withBundle bundle: Bundle, tableName: String?) -> String {
+    ///   - bundle: The bundle.
+    ///   - tableName: The table name.
+    /// - Returns: The localized string.
+    public func localized(
+        withBundle bundle: Bundle,
+        tableName: String?) -> String {
         
         return NSLocalizedString(
             self,
