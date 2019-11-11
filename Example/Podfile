@@ -1,11 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
+inhibit_all_warnings!
+
+xcodeproj 'Translatio'
 use_frameworks!
 
 target 'Translatio_Example' do
   pod 'Translatio', :path => '../'
+end
 
-  target 'Translatio_Tests' do
-    inherit! :search_paths
 
-    
-  end
+target 'Translatio_Tests' do
+  pod 'Translatio', :path => '../'
 end

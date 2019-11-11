@@ -16,6 +16,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 
 iOS 9 or higher.
+Swift 5.
 
 ## Installation
 
@@ -54,7 +55,7 @@ As you can see the UILabel now has a Localizable Text property that can be modif
 
 ## Author
 
-Andrea Mario Lufino, andrea.lufino@me.com
+Andrea Mario Lufino, [andrealufino.me](https://andrealufino.me).
 
 ## License
 

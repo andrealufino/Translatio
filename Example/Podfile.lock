@@ -1,16 +1,16 @@
 PODS:
-  - Translatio (0.1.0)
+  - Translatio (1.1.0)
 
 DEPENDENCIES:
   - Translatio (from `../`)
 
 EXTERNAL SOURCES:
   Translatio:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  Translatio: 9c2bcb6fb66b641fe811b83ac0d8ad2f960b1a8c
+  Translatio: eacf8d7de37e4014af6d5e88080ddbf677976dc4
 
-PODFILE CHECKSUM: dae2161a9ab552acf77f7a01a61fe1a77bb81da5
+PODFILE CHECKSUM: 1128d3bb587044da4c7d94bf8b4a606b8bfed58e
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.8.4

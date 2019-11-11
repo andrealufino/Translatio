@@ -16,13 +16,10 @@ extension UITextView {
     
     /// The key in the Localizable.strings file for the text
     @IBInspectable public var localizableText: String {
-        
         get {
-            
             return self.text
         }
         set {
-            
             self.text = newValue.localized
         }
     }

@@ -16,13 +16,10 @@ extension UINavigationItem {
     
     /// The key in the Localizable.strings file for the title
     @IBInspectable public var localizableTitle: String {
-        
         get {
-            
             return self.title ?? ""
         }
         set {
-            
             self.title = newValue.localized
         }
     }
